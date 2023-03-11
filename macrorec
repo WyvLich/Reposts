@@ -4,7 +4,7 @@ local mouse = LocalPlayer:GetMouse()
 
 local currentRecording = {inputBin = {},startingCFrame = nil,cameraCFrame = nil,name = "Recording1"}
 local commands = {loadMacro = "load ",saveRecording = "save"}
-local bin = {recording = false,playing = false,loop = false,loopPlaying = false,startTime = 0,keyBin = game:HttpGet("https://raw.githubusercontent.com/WyvLich/Reposts/main/keys")}
+local bin = {recording = false,playing = false,loop = false,loopPlaying = false,startTime = 0,keyBin = HttpService:JSONDecode(game:HttpGet("https://pastebin.com/raw/Gc7tL3h2"))}
 
 local newInput = function(data) -- Logs key/mouse/camera input
     if bin.recording then
