@@ -6,14 +6,6 @@ end
 
 repeat wait() until game:IsLoaded()
 
--- the rewrite was lost, this was the latest version of uwuware I could find
--- last time this was modified before being discontinued was around October 2021, so most of this shit's probably obsolete (USE AT YOUR OWN RISK!!!)
--- there are a lot of shitty methods here that were never cleaned up, a lot of shitty organization and shitty code in general
--- anyway, enjoy trying to make sense out of any of this
-
-
--- if you're just looking to get the library for whatever reason, just copy everything from below till you see LIBRARY END
-
 	--LIBRARY START
 	--Services
 	getgenv().runService = game:GetService"RunService"
